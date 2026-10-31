@@ -162,6 +162,7 @@ dependencies = [
  "ariel-os-buildinfo",
  "ariel-os-embassy",
  "ariel-os-hal",
+ "ariel-os-identity",
  "ariel-os-log",
  "ariel-os-macros",
  "ariel-os-random",
@@ -232,6 +233,8 @@ dependencies = [
  "embassy-futures",
  "embassy-hal-internal",
  "embassy-net",
+ "embassy-net-driver",
+ "embassy-net-driver-channel",
  "embassy-net-wiznet",
  "embassy-nrf",
  "embassy-rp",
@@ -1286,9 +1289,9 @@ dependencies = [
 
 [[package]]
 name = "coap-handler-implementations"
-version = "0.6.2"
+version = "0.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "be376890958ba8ccf700300361ee426bc1a1539714690e4ab5128c50400d578c"
+checksum = "e235b2a3bf23d555af6049695ca47ee0e373a4d0942c14da5e97b89d6440edb5"
 dependencies = [
  "coap-handler",
  "coap-message",
@@ -1841,7 +1844,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8d162beedaa69905488a8da94f5ac3edb4dd4788b732fadb7bd120b2625c1976"
 dependencies = [
  "data-encoding",
- "syn 1.0.109",
+ "syn 2.0.114",
 ]
 
 [[package]]
