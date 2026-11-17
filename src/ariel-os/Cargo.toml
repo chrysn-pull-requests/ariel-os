@@ -102,6 +102,8 @@ coap-server-config-unprotected = [
 ]
 coap-transport-udp = ["ariel-os-coap/coap-transport-udp"]
 user-net-driver-channel = ["ariel-os-embassy/user-net-driver-channel"]
+coap-transport-slipmux-usb = ["ariel-os-coap/coap-transport-slipmux-usb"]
+coap-transport-slipmux-uart = ["ariel-os-coap/coap-transport-slipmux-uart"]
 # Forwarded features that are not even user selected, but influenced by the
 # build system that knows who provides an abort and assert handler.
 liboscore-provide-abort = ["ariel-os-coap/liboscore-provide-abort"]
